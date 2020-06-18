@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1150"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C99EAF3E1B90B05700D61E1B"
-               BuildableName = "PasscodeLock.framework"
-               BlueprintName = "PasscodeLock"
+               BlueprintIdentifier = "C9D3DF0F1B91AD11008561EB"
+               BuildableName = "PasscodeLockDemo.app"
+               BlueprintName = "PasscodeLockDemo"
                ReferencedContainer = "container:PasscodeLock.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,23 +27,24 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C99EAF3E1B90B05700D61E1B"
-            BuildableName = "PasscodeLock.framework"
-            BlueprintName = "PasscodeLock"
-            ReferencedContainer = "container:PasscodeLock.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C99EAF481B90B05700D61E1B"
-               BuildableName = "PasscodeLockTests.xctest"
-               BlueprintName = "PasscodeLockTests"
+               BlueprintIdentifier = "C9D3DF221B91AD11008561EB"
+               BuildableName = "PasscodeLockDemoTests.xctest"
+               BlueprintName = "PasscodeLockDemoTests"
+               ReferencedContainer = "container:PasscodeLock.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C9D3DF2D1B91AD12008561EB"
+               BuildableName = "PasscodeLockDemoUITests.xctest"
+               BlueprintName = "PasscodeLockDemoUITests"
                ReferencedContainer = "container:PasscodeLock.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -59,15 +60,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C99EAF3E1B90B05700D61E1B"
-            BuildableName = "PasscodeLock.framework"
-            BlueprintName = "PasscodeLock"
+            BlueprintIdentifier = "C9D3DF0F1B91AD11008561EB"
+            BuildableName = "PasscodeLockDemo.app"
+            BlueprintName = "PasscodeLockDemo"
             ReferencedContainer = "container:PasscodeLock.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -75,15 +77,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C99EAF3E1B90B05700D61E1B"
-            BuildableName = "PasscodeLock.framework"
-            BlueprintName = "PasscodeLock"
+            BlueprintIdentifier = "C9D3DF0F1B91AD11008561EB"
+            BuildableName = "PasscodeLockDemo.app"
+            BlueprintName = "PasscodeLockDemo"
             ReferencedContainer = "container:PasscodeLock.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
