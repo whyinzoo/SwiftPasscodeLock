@@ -1,5 +1,5 @@
 # PasscodeLock
-[![Build Status](https://travis-ci.org/zahlz/SwiftPasscodeLock.svg?branch=master)](https://travis-ci.org/zahlz/SwiftPasscodeLock)
+[![Build Status](https://travis-ci.org/whyinzoo/SwiftPasscodeLock.svg?branch=master)](https://travis-ci.org/whyinzoo/SwiftPasscodeLock)
 [![Swift4.1](https://img.shields.io/badge/swift4.1-compatible-brightgreen.svg)](https://apple.com/ios)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
@@ -18,7 +18,7 @@ A Swift implementation of passcode lock for iOS with TouchID authentication.
 
 Add the following line to your [Cartfile](https://github.com/carthage/carthage)
 ```swift
-github "zahlz/SwiftPasscodeLock"
+github "whyinzoo/SwiftPasscodeLock"
 ```
 ## Usage
 
